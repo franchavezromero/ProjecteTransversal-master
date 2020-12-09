@@ -1,0 +1,213 @@
+/*Se aplica a todo*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Oferta*/
+
+.oferta {
+    padding: 0px 500px;
+    background-color: coral;
+    text-align: center !important;
+}
+
+
+/*Comienzo primer menu*/
+
+.first-menu {
+    background-color: black;
+    width: 100%;
+    display: inline;
+    height: 30px;
+}
+
+.nav-menul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menul .dropbtn {
+    background-color: black;
+    color: white;
+}
+
+.nav-menur .dropbtn {
+    background-color: black;
+    color: white;
+}
+
+.nav-menur {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 9px;
+    font-size: 9px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dddddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/*Final primer menu*/
+
+
+/*Comienzo navegador header*/
+
+.size {
+    font-size: medium;
+}
+
+.main-nav {
+    height: 100px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.menu-buscador {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.search-button {
+    width: auto;
+    height: 30px;
+}
+
+.search-button input {
+    height: -webkit-fill-available;
+}
+
+.search {
+    width: 27px;
+    height: 29px;
+}
+
+.heart {
+    width: 15px;
+    height: 32px;
+}
+
+
+/*Final navegador header*/
+
+
+/*Comienzo main menu*/
+
+.main-menu {
+    text-align: center;
+}
+
+
+/*Final main menu*/
+
+
+/*COMIENZO DE LA STORE*/
+
+.store {}
+
+
+/*FINAL DE LA STORE*/
+
+
+/*Filas y columnas */
+
+.row {
+    width: 100%;
+    display: flex;
+    height: min-content;
+}
+
+.col-1 {
+    width: 8.33%
+}
+
+.col-2 {
+    width: 16.66%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33.33%
+}
+
+.col-5 {
+    width: 41.66%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-10 {
+    width: 83.33%
+}
+
+.col-11 {
+    width: 91.66%
+}
+
+.col-12 {
+    width: 100%
+}
