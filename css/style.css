@@ -234,6 +234,7 @@ li a {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .card {
@@ -271,8 +272,79 @@ li a {
 /*COMIENZO BANNER ANILLO*/
 
 .banner-anillo {
+    padding: 1%;
     height: 100% !important;
     background-color: #f4f4f4;
+}
+
+.banner-anillo section {
+    display: inline-block;
+    text-align: end;
+}
+
+.banner-anillo .texto {
+    text-align: start;
+    padding-top: 10%;
+}
+
+.banner-anillo section h5 {
+    font-size: 28px;
+    color: #dc3545;
+    font-weight: bolder;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.banner-anillo section img {
+    width: 80%;
+    padding: 5%;
+}
+
+.banner-anillo .mid {
+    display: flex;
+}
+
+.horas {
+    background-color: rgba(0, 0, 0, 0.60);
+    margin-left: 0;
+    margin-right: 30px;
+    width: 80px;
+    height: 80px;
+    padding-top: 6px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.horas small {
+    font-weight: normal;
+    font-size: initial;
+}
+
+.texto button {
+    text-transform: uppercase !important;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    margin: 0px;
+    padding-top: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    min-height: 0px;
+    min-width: 150px;
+    max-height: none;
+    max-width: 150px;
+    opacity: 1;
+    background-color: #b38741;
+    border: none;
+    color: white;
+    margin-top: 12px;
 }
 
 
