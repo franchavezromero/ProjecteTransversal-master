@@ -1,16 +1,17 @@
 /*Se aplica a todo*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 /*Oferta*/
 
 .oferta {
-    padding: 0px 500px;
-    background-color: coral;
+    background-color: #b38741;
     text-align: center !important;
 }
 
@@ -82,7 +83,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #b38741;
 }
 
 
@@ -127,6 +128,8 @@
 .search {
     width: 27px;
     height: 29px;
+    background-color: #b38741;
+    color: white;
 }
 
 .heart {
@@ -144,16 +147,136 @@
     text-align: center;
 }
 
+.banner {
+    text-transform: uppercase;
+    color: white;
+}
+
+.banner img {
+    position: relative;
+}
+
+.text1 {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.text2 {
+    position: absolute;
+    text-transform: initial;
+    top: 35%;
+    left: 40%;
+    font-size: xxx-large;
+    width: 30%;
+    text-transform: capitalize;
+}
+
+.banner button {
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    text-transform: uppercase;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    margin: 0px;
+    padding: 12px 28px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 13px;
+    min-height: 0px;
+    min-width: 150px;
+    max-height: none;
+    max-width: 150px;
+    opacity: 1;
+    background-color: #b38741;
+    border: none;
+}
+
+.left {
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+}
+
+.mid {
+    padding-top: 0.5%;
+    text-align: center;
+}
+
+.right {
+    padding-top: 0.5%;
+    text-align: end;
+    padding-right: 0.5%;
+}
+
 
 /*Final main menu*/
 
 
 /*COMIENZO DE LA STORE*/
 
-.store {}
+.store {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.cards {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 330px;
+}
+
+.columnas {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.columnas img {
+    width: 100%;
+    height: 100%;
+}
+
+.columnas p {
+    text-align: start;
+    padding-top: 1%;
+}
+
+.price {
+    color: #b38741;
+    text-transform: capitalize;
+}
 
 
 /*FINAL DE LA STORE*/
+
+
+/*COMIENZO BANNER ANILLO*/
+
+.banner-anillo {
+    height: 100% !important;
+    background-color: #f4f4f4;
+}
+
+
+/*FINAL BANNER ANILLO*/
 
 
 /*Filas y columnas */
