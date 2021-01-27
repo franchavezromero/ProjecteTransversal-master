@@ -7,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 
 /*Oferta*/
 
@@ -150,9 +154,6 @@
 .banner {
     text-transform: uppercase;
     color: white;
-}
-
-.banner img {
     position: relative;
 }
 
@@ -174,7 +175,7 @@
 
 .banner button {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 47%;
     text-transform: uppercase;
     visibility: inherit;
