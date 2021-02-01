@@ -9,5 +9,4 @@ function hide() {
 }*/
 function search() {
     alert("Error: Fran aún no ha añadido una función aquí. (Acepto sugerencias !!)");
-
 }

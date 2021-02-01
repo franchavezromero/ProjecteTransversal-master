@@ -136,6 +136,10 @@
     .banner {
         font-size: xx-small;
     }
+    .text1 {
+        left: 40%;
+        top: 27%;
+    }
     .text2 {
         font-size: xx-small !important;
     }
@@ -143,6 +147,17 @@
         padding: 6px 13px;
         min-width: 100px;
         font-size: inherit;
+    }
+    /* JOYAS */
+    .joyas {
+        margin-left: 30%;
+        display: block;
+    }
+    .left {
+        display: flex !important;
+    }
+    .right {
+        display: flex;
     }
     /* SHOP */
     .shoplinks {
@@ -159,6 +174,13 @@
         padding-left: 0;
         padding-right: 0;
         padding-top: 3%;
+        display: block;
+    }
+    .columnas {
+        display: block;
+        float: none;
+        margin-left: 30%;
+        width: 50%;
     }
     /* BANNER ANILLO */
     .banner-anillo section h5 {
