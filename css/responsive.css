@@ -1,5 +1,150 @@
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+@media only screen and (max-width: 320px) {
+    .size {
+        font-size: xx-small;
+    }
+    /*OFERTA*/
+    .oferta {
+        font-size: 12px;
+    }
+    /* FIRST MENU */
+    .nav-menul {
+        justify-content: initial;
+        width: auto;
+    }
+    .barra-medio {
+        /*NADA AÚN */
+    }
+    .nav-menur {
+        width: inherit;
+    }
+    /* MAIN MENU */
+    .main-nav {
+        justify-content: inherit;
+    }
+    .logo {
+        justify-content: inherit;
+        font-size: inherit;
+    }
+    .menu-buscador {
+        justify-content: inherit;
+    }
+    .menu-buscador div button {
+        padding: 0;
+    }
+    .menu-buscador div button div {
+        font-size: inherit;
+    }
+    .search-button input {
+        width: 100%;
+    }
+    .cesta {
+        justify-content: inherit;
+        padding-left: 3%;
+    }
+    /* BANNER */
+    .banner {
+        font-size: xx-small;
+    }
+    .text2 {
+        font-size: xx-small !important;
+    }
+    .banner button {
+        padding: 6px 13px;
+        min-width: 100px;
+        font-size: inherit;
+    }
+    /* SHOP */
+    .shoplinks {
+        font-size: x-small;
+    }
+    .shoplinks li a {
+        padding: 0;
+        padding-right: 2%;
+    }
+    .cards {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 3%;
+    }
+    /* BANNER ANILLO */
+    .banner-anillo section h5 {
+        font-size: inherit;
+    }
+    .banner-anillo section h2 {
+        font-size: inherit;
+    }
+    .horas {
+        width: 20% !important;
+        font-size: 8px !important;
+    }
+    .texto button {
+        padding-top: 7px;
+        padding-left: 9px;
+        padding-right: 13px;
+        padding-bottom: 7px;
+        margin-top: inherit;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    /* FIRST MENU */
+    .nav-menul {
+        justify-content: initial;
+    }
+    .dropbtn {
+        font-size: 8px;
+    }
+    /* MAIN NAV */
+    .logo {
+        justify-content: initial;
+    }
+    /* BANNER */
+    .text1 {
+        top: 25%;
+        left: 40%;
+    }
+    .text2 {
+        font-size: large;
+    }
+    .banner button {
+        top: 65%;
+        left: 40%;
+    }
+    /* STORE */
+    .columnas img {
+        width: 100%;
+        height: auto;
+    }
+    .card {
+        height: auto;
+    }
+    .columnas p {
+        font-size: x-small;
+    }
+    /* BANNER ANILLO */
+    .horas {
+        font-size: 13px;
+        height: initial;
+        width: 40px;
+        margin-right: initial;
+    }
+    .horas small {
+        font-size: inherit;
+    }
+    .banner-anillo section img {
+        width: 100%;
+        padding: 0;
+        padding-top: 50%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
     .text1 {
         top: 25%;
         left: 40%;
@@ -18,4 +163,25 @@
     .card {
         height: auto;
     }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    /* NADA AÚN */
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    /* NADA AÚN */
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    /* NADA AÚN */
 }
