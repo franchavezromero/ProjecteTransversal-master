@@ -145,24 +145,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    .text1 {
-        top: 25%;
-        left: 40%;
-    }
-    .text2 {
-        font-size: large;
-    }
-    .banner button {
-        top: 65%;
-        left: 40%;
-    }
-    .columnas img {
-        width: 100%;
-        height: auto;
-    }
-    .card {
-        height: auto;
-    }
+    /*NADA AÚN*/
 }
 
 
