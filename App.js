@@ -7,3 +7,7 @@ function hide() {
     var x = document.getElementsByClassName("oferta");
     x.style.display = "block";
 }*/
+function search() {
+    alert("Error: No se ha encontrado");
+
+}

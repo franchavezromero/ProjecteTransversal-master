@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #b38741;
+        }
+    </style>
 </head>
 
 <body>
@@ -62,7 +70,7 @@
     </div>
     <!-- NAVEGADOR -->
     <!--LOGO-->
-    <nav class="main-nav row">
+    <nav class="main-nav row" id="myHeader">
         <div class="col-2 logo">
             <button type="button" class="logo" href="#">Katora.</button>
         </div>
@@ -83,7 +91,7 @@
             <form class="search-button">
                 <input type="text" placeholder="Search.." name="search">
             </form>
-            <button type="submit" class="search">
+            <button type="submit" class="search" onclick="search()">
                 <i class="fa fa-search"></i>
             </button>
         </div>
@@ -259,6 +267,22 @@
         <div class="col-2"></div>
     </div>
     <script src="App.js"></script>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>

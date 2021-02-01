@@ -104,6 +104,9 @@ img {
 
 /*Comienzo navegador header*/
 
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
 .size {
     font-size: medium;
 }
