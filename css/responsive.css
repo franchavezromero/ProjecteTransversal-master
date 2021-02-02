@@ -73,9 +73,16 @@
     .banner-anillo section h2 {
         font-size: inherit;
     }
+    .banner-anillo .col-8 {
+        display: block;
+        text-align: center;
+    }
     .horas {
         width: 20% !important;
         font-size: 8px !important;
+    }
+    .banner-anillo .col-8 .texto {
+        text-align: center;
     }
     .texto button {
         padding-top: 7px;
@@ -150,18 +157,22 @@
     }
     /* JOYAS */
     .joyas {
-        margin-left: 30%;
         display: block;
     }
     .left {
         display: flex !important;
+        width: 100%;
+    }
+    .mid {
+        width: 100%;
     }
     .right {
         display: flex;
+        width: 100%;
     }
     /* SHOP */
     .shoplinks {
-        font-size: x-small;
+        font-size: inherit;
     }
     .shoplinks li a {
         padding: 0;
@@ -179,8 +190,12 @@
     .columnas {
         display: block;
         float: none;
-        margin-left: 30%;
-        width: 50%;
+        width: 100%;
+        text-align: center;
+    }
+    .columnas p {
+        text-align: center;
+        padding: 2%;
     }
     /* BANNER ANILLO */
     .banner-anillo section h5 {
@@ -188,6 +203,13 @@
     }
     .banner-anillo section h2 {
         font-size: inherit;
+    }
+    .banner-anillo .col-2 {
+        display: none;
+    }
+    .banner-anillo .col-8 {
+        width: 100%;
+        display: block;
     }
     .horas {
         width: 23% !important;
@@ -230,6 +252,12 @@
     }
     .text1 {
         top: 27%;
+    }
+    .columnas p {
+        font-size: small;
+    }
+    .nav-menur :first-child .dropdown {
+        margin-left: 50%;
     }
 }
 
