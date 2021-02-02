@@ -160,14 +160,14 @@
         display: block;
     }
     .left {
-        display: flex !important;
+        display: inline-block !important;
         width: 100%;
     }
     .mid {
         width: 100%;
     }
     .right {
-        display: flex;
+        display: inline-block;
         width: 100%;
     }
     /* SHOP */
